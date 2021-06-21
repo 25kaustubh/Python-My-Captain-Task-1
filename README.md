@@ -1,1 +1,24 @@
 # Python-My-Captain-Task-1
+# Python program to demonstrate working of
+# Set in Python
+ 
+# Creating two sets
+set1 = set()
+set2 = set()
+ 
+# Adding elements to set1
+for i in range(1, 6):
+    set1.add(i)
+ 
+# Adding elements to set2
+for i in range(3, 8):
+    set2.add(i)
+ 
+print("Set1 = ", set1)
+print("Set2 = ", set2)
+print("\n")
+ 
+ Output
+ 
+ ('Set1 = ', set([1, 2, 3, 4, 5]))
+('Set2 = ', set([3, 4, 5, 6, 7]))
